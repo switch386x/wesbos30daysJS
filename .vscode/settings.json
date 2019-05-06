@@ -1,0 +1,19 @@
+{
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/css"
+        },
+    ],
+    
+    "liveSassCompile.settings.includeItems": [
+        "sass/style.scss",
+    ],
+    "macros": {
+        "build": [
+            "liveSass.command.oneTimeCompileSass",
+            "workbench.action.files.saveAll",
+        ]
+    },
+}
